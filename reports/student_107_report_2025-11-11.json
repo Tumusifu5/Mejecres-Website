@@ -1,0 +1,24 @@
+{
+    "student_id": 107,
+    "name": "KENDY DOLLAN PAJOJO",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 60,
+        "Science & Social": 82,
+        "English": 83,
+        "Science & Tech": 59,
+        "Kinyarwanda": 85,
+        "Kiswahili": 55,
+        "Creative Arts": 55,
+        "French": 53,
+        "PE": 74,
+        "Religion": 91
+    },
+    "total": 697,
+    "average": "69.70",
+    "grade": "B",
+    "rank": 30,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

@@ -532,10 +532,10 @@ footer {
   </div>
   <button class="hamburger" id="hamburger">☰</button>
   <nav id="NavMenu">
-    <a href="index.php">Home</a>
-    <a href="about.php">About</a>
-    <a href="gallery.php" class="active">Gallery</a>
-    <a href="contact.php">Contact</a>
+   <a href="index.php"><i class="fas fa-home"></i> Home</a>
+        <a href="about.php"><i class="fas fa-info-circle"></i> About</a>
+        <a href="gallery.php"><i class="fas fa-images"></i> School Gallery</a>
+        <a href="contact.php"><i class="fas fa-envelope"></i> Contact</a>
   </nav>
 </header>
 

@@ -1,0 +1,24 @@
+{
+    "student_id": 99,
+    "name": "INEZA JOYCE NELLA",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 70,
+        "Science & Social": 92,
+        "English": 57,
+        "Science & Tech": 56,
+        "Kinyarwanda": 52,
+        "Kiswahili": 60,
+        "Creative Arts": 79,
+        "French": 61,
+        "PE": 77,
+        "Religion": 91
+    },
+    "total": 695,
+    "average": "69.50",
+    "grade": "B",
+    "rank": 32,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

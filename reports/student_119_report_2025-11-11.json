@@ -1,0 +1,24 @@
+{
+    "student_id": 119,
+    "name": "NGOGA Victo Armando",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 50,
+        "Science & Social": 83,
+        "English": 55,
+        "Science & Tech": 86,
+        "Kinyarwanda": 72,
+        "Kiswahili": 53,
+        "Creative Arts": 68,
+        "French": 71,
+        "PE": 80,
+        "Religion": 54
+    },
+    "total": 672,
+    "average": "67.20",
+    "grade": "B",
+    "rank": 38,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

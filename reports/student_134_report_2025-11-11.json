@@ -1,0 +1,24 @@
+{
+    "student_id": 134,
+    "name": "UMUKUNDWA LISA KEILLA",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 54,
+        "Science & Social": 61,
+        "English": 68,
+        "Science & Tech": 52,
+        "Kinyarwanda": 56,
+        "Kiswahili": 82,
+        "Creative Arts": 72,
+        "French": 72,
+        "PE": 51,
+        "Religion": 76
+    },
+    "total": 644,
+    "average": "64.40",
+    "grade": "B",
+    "rank": 43,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

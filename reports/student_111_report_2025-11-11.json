@@ -1,0 +1,24 @@
+{
+    "student_id": 111,
+    "name": "Mpano Nganji Brilliant",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 75,
+        "Science & Social": 95,
+        "English": 65,
+        "Science & Tech": 68,
+        "Kinyarwanda": 92,
+        "Kiswahili": 76,
+        "Creative Arts": 67,
+        "French": 66,
+        "PE": 81,
+        "Religion": 60
+    },
+    "total": 745,
+    "average": "74.50",
+    "grade": "B+",
+    "rank": 10,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

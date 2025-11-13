@@ -1,0 +1,24 @@
+{
+    "student_id": 112,
+    "name": "MUGISHA Jean Remy",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 69,
+        "Science & Social": 56,
+        "English": 89,
+        "Science & Tech": 54,
+        "Kinyarwanda": 84,
+        "Kiswahili": 60,
+        "Creative Arts": 80,
+        "French": 53,
+        "PE": 72,
+        "Religion": 52
+    },
+    "total": 669,
+    "average": "66.90",
+    "grade": "B",
+    "rank": 40,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

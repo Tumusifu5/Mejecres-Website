@@ -1,0 +1,24 @@
+{
+    "student_id": 103,
+    "name": "IRASUBIZA AIME CLOVIS",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 82,
+        "Science & Social": 59,
+        "English": 89,
+        "Science & Tech": 72,
+        "Kinyarwanda": 93,
+        "Kiswahili": 91,
+        "Creative Arts": 68,
+        "French": 75,
+        "PE": 92,
+        "Religion": 59
+    },
+    "total": 780,
+    "average": "78.00",
+    "grade": "B+",
+    "rank": 4,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

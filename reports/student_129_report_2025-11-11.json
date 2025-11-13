@@ -1,0 +1,24 @@
+{
+    "student_id": 129,
+    "name": "SHAMI RWEMA DAVIS",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 58,
+        "Science & Social": 73,
+        "English": 86,
+        "Science & Tech": 72,
+        "Kinyarwanda": 63,
+        "Kiswahili": 83,
+        "Creative Arts": 56,
+        "French": 79,
+        "PE": 54,
+        "Religion": 84
+    },
+    "total": 708,
+    "average": "70.80",
+    "grade": "B",
+    "rank": 25,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

@@ -1,0 +1,24 @@
+{
+    "student_id": 97,
+    "name": "IHIRWE FAITH RYAN",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 93,
+        "Science & Social": 52,
+        "English": 65,
+        "Science & Tech": 50,
+        "Kinyarwanda": 94,
+        "Kiswahili": 80,
+        "Creative Arts": 72,
+        "French": 50,
+        "PE": 80,
+        "Religion": 79
+    },
+    "total": 715,
+    "average": "71.50",
+    "grade": "B+",
+    "rank": 21,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

@@ -1,0 +1,24 @@
+{
+    "student_id": 108,
+    "name": "KUNDWA IRIZA BELLA NANCY",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 82,
+        "Science & Social": 81,
+        "English": 54,
+        "Science & Tech": 79,
+        "Kinyarwanda": 58,
+        "Kiswahili": 63,
+        "Creative Arts": 83,
+        "French": 72,
+        "PE": 86,
+        "Religion": 65
+    },
+    "total": 723,
+    "average": "72.30",
+    "grade": "B+",
+    "rank": 19,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

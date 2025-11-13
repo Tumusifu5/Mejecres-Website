@@ -1,0 +1,24 @@
+{
+    "student_id": 126,
+    "name": "RUGAMBA SHAMI NICOLAS",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 63,
+        "Science & Social": 85,
+        "English": 67,
+        "Science & Tech": 65,
+        "Kinyarwanda": 76,
+        "Kiswahili": 58,
+        "Creative Arts": 62,
+        "French": 78,
+        "PE": 81,
+        "Religion": 56
+    },
+    "total": 691,
+    "average": "69.10",
+    "grade": "B",
+    "rank": 34,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

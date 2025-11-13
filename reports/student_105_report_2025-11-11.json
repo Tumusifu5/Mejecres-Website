@@ -1,0 +1,24 @@
+{
+    "student_id": 105,
+    "name": "ISHIMWE AIME Gael",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 87,
+        "Science & Social": 66,
+        "English": 64,
+        "Science & Tech": 75,
+        "Kinyarwanda": 64,
+        "Kiswahili": 73,
+        "Creative Arts": 51,
+        "French": 90,
+        "PE": 55,
+        "Religion": 72
+    },
+    "total": 697,
+    "average": "69.70",
+    "grade": "B",
+    "rank": 29,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

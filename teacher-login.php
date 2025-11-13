@@ -49,8 +49,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 :root {
   --primary-1: #023eaa;
   --primary-2: #0b4bd8;
-  --accent: #ff9800;
-  --accent-light: #ffa726;
+  --accent: #654310ff;
+  --accent-light: #6b4205ff;
   --bg: #f8fafc;
   --text: #333333;
   --text-light: #666666;
@@ -68,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #ff9800, #ffa726);
+  background: linear-gradient(135deg, #92774fff, #c88d34ff);
   color: var(--text);
   display: flex;
   justify-content: center;

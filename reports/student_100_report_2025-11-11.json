@@ -1,0 +1,24 @@
+{
+    "student_id": 100,
+    "name": "IRADUKUNDA ELIVIS",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 68,
+        "Science & Social": 71,
+        "English": 74,
+        "Science & Tech": 92,
+        "Kinyarwanda": 88,
+        "Kiswahili": 81,
+        "Creative Arts": 59,
+        "French": 50,
+        "PE": 95,
+        "Religion": 79
+    },
+    "total": 757,
+    "average": "75.70",
+    "grade": "B+",
+    "rank": 8,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

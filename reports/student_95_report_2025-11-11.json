@@ -1,0 +1,24 @@
+{
+    "student_id": 95,
+    "name": "BERWA RITHA",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 60,
+        "Science & Social": 69,
+        "English": 74,
+        "Science & Tech": 61,
+        "Kinyarwanda": 57,
+        "Kiswahili": 86,
+        "Creative Arts": 54,
+        "French": 55,
+        "PE": 84,
+        "Religion": 82
+    },
+    "total": 682,
+    "average": "68.20",
+    "grade": "B",
+    "rank": 36,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

@@ -1,0 +1,24 @@
+{
+    "student_id": 115,
+    "name": "MWIZA NGOGA BEULAH",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 66,
+        "Science & Social": 58,
+        "English": 78,
+        "Science & Tech": 52,
+        "Kinyarwanda": 73,
+        "Kiswahili": 72,
+        "Creative Arts": 88,
+        "French": 94,
+        "PE": 53,
+        "Religion": 71
+    },
+    "total": 705,
+    "average": "70.50",
+    "grade": "B",
+    "rank": 27,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

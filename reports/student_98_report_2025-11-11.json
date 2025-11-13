@@ -1,0 +1,24 @@
+{
+    "student_id": 98,
+    "name": "IMPANO Ariela",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 66,
+        "Science & Social": 70,
+        "English": 73,
+        "Science & Tech": 94,
+        "Kinyarwanda": 69,
+        "Kiswahili": 58,
+        "Creative Arts": 80,
+        "French": 59,
+        "PE": 53,
+        "Religion": 91
+    },
+    "total": 713,
+    "average": "71.30",
+    "grade": "B+",
+    "rank": 24,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

@@ -1,0 +1,24 @@
+{
+    "student_id": 109,
+    "name": "MANISHIMWE DIANE",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 87,
+        "Science & Social": 74,
+        "English": 92,
+        "Science & Tech": 57,
+        "Kinyarwanda": 91,
+        "Kiswahili": 71,
+        "Creative Arts": 56,
+        "French": 95,
+        "PE": 72,
+        "Religion": 54
+    },
+    "total": 749,
+    "average": "74.90",
+    "grade": "B+",
+    "rank": 9,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

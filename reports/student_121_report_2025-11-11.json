@@ -1,0 +1,24 @@
+{
+    "student_id": 121,
+    "name": "NIMWIZA LOUNA AMELIA",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 90,
+        "Science & Social": 89,
+        "English": 85,
+        "Science & Tech": 66,
+        "Kinyarwanda": 82,
+        "Kiswahili": 78,
+        "Creative Arts": 85,
+        "French": 79,
+        "PE": 71,
+        "Religion": 51
+    },
+    "total": 776,
+    "average": "77.60",
+    "grade": "B+",
+    "rank": 6,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

@@ -1,0 +1,24 @@
+{
+    "student_id": 125,
+    "name": "NUBUHORO SHAMI KENDRA",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 89,
+        "Science & Social": 80,
+        "English": 54,
+        "Science & Tech": 73,
+        "Kinyarwanda": 51,
+        "Kiswahili": 50,
+        "Creative Arts": 90,
+        "French": 61,
+        "PE": 60,
+        "Religion": 93
+    },
+    "total": 701,
+    "average": "70.10",
+    "grade": "B",
+    "rank": 28,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

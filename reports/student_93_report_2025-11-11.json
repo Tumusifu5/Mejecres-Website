@@ -1,0 +1,24 @@
+{
+    "student_id": 93,
+    "name": "ABATAZI LIAM Tennyson",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 88,
+        "Science & Social": 61,
+        "English": 65,
+        "Science & Tech": 94,
+        "Kinyarwanda": 68,
+        "Kiswahili": 82,
+        "Creative Arts": 88,
+        "French": 73,
+        "PE": 79,
+        "Religion": 78
+    },
+    "total": 776,
+    "average": "77.60",
+    "grade": "B+",
+    "rank": 5,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

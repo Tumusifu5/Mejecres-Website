@@ -1,0 +1,24 @@
+{
+    "student_id": 116,
+    "name": "MWIZERWA GISA ALLAN",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 66,
+        "Science & Social": 58,
+        "English": 65,
+        "Science & Tech": 76,
+        "Kinyarwanda": 79,
+        "Kiswahili": 64,
+        "Creative Arts": 91,
+        "French": 81,
+        "PE": 70,
+        "Religion": 64
+    },
+    "total": 714,
+    "average": "71.40",
+    "grade": "B+",
+    "rank": 23,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

@@ -1,0 +1,24 @@
+{
+    "student_id": 130,
+    "name": "SHIMWA Lynda Tricia",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 95,
+        "Science & Social": 89,
+        "English": 83,
+        "Science & Tech": 92,
+        "Kinyarwanda": 79,
+        "Kiswahili": 63,
+        "Creative Arts": 84,
+        "French": 95,
+        "PE": 51,
+        "Religion": 69
+    },
+    "total": 800,
+    "average": "80.00",
+    "grade": "B+",
+    "rank": 1,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

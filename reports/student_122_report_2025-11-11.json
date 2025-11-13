@@ -1,0 +1,24 @@
+{
+    "student_id": 122,
+    "name": "NIYIBIZI LUCKY SHAFFY",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 57,
+        "Science & Social": 87,
+        "English": 86,
+        "Science & Tech": 86,
+        "Kinyarwanda": 52,
+        "Kiswahili": 88,
+        "Creative Arts": 79,
+        "French": 77,
+        "PE": 87,
+        "Religion": 92
+    },
+    "total": 791,
+    "average": "79.10",
+    "grade": "B+",
+    "rank": 2,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

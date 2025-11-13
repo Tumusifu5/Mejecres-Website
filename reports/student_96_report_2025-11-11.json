@@ -1,0 +1,24 @@
+{
+    "student_id": 96,
+    "name": "HIRWA SHIMA NOLAN",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 75,
+        "Science & Social": 87,
+        "English": 52,
+        "Science & Tech": 60,
+        "Kinyarwanda": 50,
+        "Kiswahili": 66,
+        "Creative Arts": 69,
+        "French": 86,
+        "PE": 86,
+        "Religion": 86
+    },
+    "total": 717,
+    "average": "71.70",
+    "grade": "B+",
+    "rank": 20,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

@@ -1,0 +1,24 @@
+{
+    "student_id": 132,
+    "name": "TWIZEYIMANA ALDO IAN",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 79,
+        "Science & Social": 52,
+        "English": 82,
+        "Science & Tech": 64,
+        "Kinyarwanda": 95,
+        "Kiswahili": 84,
+        "Creative Arts": 55,
+        "French": 58,
+        "PE": 65,
+        "Religion": 73
+    },
+    "total": 707,
+    "average": "70.70",
+    "grade": "B",
+    "rank": 26,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

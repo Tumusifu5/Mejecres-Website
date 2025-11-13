@@ -1,0 +1,24 @@
+{
+    "student_id": 117,
+    "name": "NATETE BLESSING",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 78,
+        "Science & Social": 51,
+        "English": 64,
+        "Science & Tech": 92,
+        "Kinyarwanda": 63,
+        "Kiswahili": 76,
+        "Creative Arts": 64,
+        "French": 91,
+        "PE": 82,
+        "Religion": 81
+    },
+    "total": 742,
+    "average": "74.20",
+    "grade": "B+",
+    "rank": 12,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

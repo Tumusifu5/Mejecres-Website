@@ -435,11 +435,11 @@ footer p {
     </div>
     <button class="hamburger" id="hamburger">☰</button>
     <nav id="NavMenu">
-      <a href="index.php">Home</a>
-      <a href="about.php">About</a>
-      <a href="vision.php">Vision & Values</a>
-      <a href="contact.php" class="active">Contact</a>
-      <a href="admin-login.php">Admin</a>
+     <a href="index.php"><i class="fas fa-home"></i> Home</a>
+      <a href="about.php"><i class="fas fa-info-circle"></i> About</a>
+   <a href="vision.php"><i class="fas fa-eye"></i> Vision & Values</a>
+        <a href="contact.php"><i class="fas fa-envelope"></i> Contact</a>
+        <a href="admin-login.php"><i class="fas fa-user-shield"></i> Admin</a>
     </nav>
   </div>
 </header>
@@ -473,7 +473,7 @@ footer p {
         </div>
         <div class="info-content">
           <h3>Phone Numbers</h3>
-          <p>+250 788 123 456 (Main)<br>+250 789 987 654 (Admissions)<br>+250 788 555 666 (Emergency)</p>
+          <p>+250 788 691 538</p>
         </div>
       </div>
       
@@ -483,7 +483,7 @@ footer p {
         </div>
         <div class="info-content">
           <h3>Email Addresses</h3>
-          <p>info@mejecres.ac.rw (General)<br>admissions@mejecres.ac.rw (Admissions)<br>principal@mejecres.ac.rw (Principal)</p>
+          <p>mejecres123@gmail.com </p>
         </div>
       </div>
       

@@ -1,0 +1,24 @@
+{
+    "student_id": 118,
+    "name": "NDIKUMWENAYO SANO BRAYDEN",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 73,
+        "Science & Social": 63,
+        "English": 95,
+        "Science & Tech": 86,
+        "Kinyarwanda": 81,
+        "Kiswahili": 92,
+        "Creative Arts": 53,
+        "French": 70,
+        "PE": 64,
+        "Religion": 52
+    },
+    "total": 729,
+    "average": "72.90",
+    "grade": "B+",
+    "rank": 15,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

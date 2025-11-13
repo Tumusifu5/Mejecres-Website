@@ -1,0 +1,24 @@
+{
+    "student_id": 113,
+    "name": "MUGISHA CYUSA BLAISE",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 72,
+        "Science & Social": 80,
+        "English": 67,
+        "Science & Tech": 62,
+        "Kinyarwanda": 68,
+        "Kiswahili": 93,
+        "Creative Arts": 62,
+        "French": 80,
+        "PE": 84,
+        "Religion": 57
+    },
+    "total": 725,
+    "average": "72.50",
+    "grade": "B+",
+    "rank": 17,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

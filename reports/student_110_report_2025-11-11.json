@@ -1,0 +1,24 @@
+{
+    "student_id": 110,
+    "name": "MIZERO OWEN LOGAN",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 72,
+        "Science & Social": 73,
+        "English": 74,
+        "Science & Tech": 71,
+        "Kinyarwanda": 58,
+        "Kiswahili": 66,
+        "Creative Arts": 77,
+        "French": 79,
+        "PE": 75,
+        "Religion": 90
+    },
+    "total": 735,
+    "average": "73.50",
+    "grade": "B+",
+    "rank": 13,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

@@ -1,0 +1,24 @@
+{
+    "student_id": 131,
+    "name": "TUMUKUNDE ISHIMWE Jessie",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 75,
+        "Science & Social": 73,
+        "English": 63,
+        "Science & Tech": 54,
+        "Kinyarwanda": 56,
+        "Kiswahili": 71,
+        "Creative Arts": 55,
+        "French": 50,
+        "PE": 73,
+        "Religion": 94
+    },
+    "total": 664,
+    "average": "66.40",
+    "grade": "B",
+    "rank": 42,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

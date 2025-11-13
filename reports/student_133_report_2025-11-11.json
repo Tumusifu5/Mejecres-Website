@@ -1,0 +1,24 @@
+{
+    "student_id": 133,
+    "name": "UKUNDWA DIVIN BLESSED",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 82,
+        "Science & Social": 70,
+        "English": 65,
+        "Science & Tech": 85,
+        "Kinyarwanda": 65,
+        "Kiswahili": 70,
+        "Creative Arts": 62,
+        "French": 70,
+        "PE": 54,
+        "Religion": 67
+    },
+    "total": 690,
+    "average": "69.00",
+    "grade": "B",
+    "rank": 35,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

@@ -1,0 +1,24 @@
+{
+    "student_id": 101,
+    "name": "IRAKOZE KEVINE",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 77,
+        "Science & Social": 68,
+        "English": 91,
+        "Science & Tech": 67,
+        "Kinyarwanda": 56,
+        "Kiswahili": 85,
+        "Creative Arts": 95,
+        "French": 93,
+        "PE": 60,
+        "Religion": 90
+    },
+    "total": 782,
+    "average": "78.20",
+    "grade": "B+",
+    "rank": 3,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

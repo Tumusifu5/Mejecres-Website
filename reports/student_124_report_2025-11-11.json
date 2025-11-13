@@ -1,0 +1,24 @@
+{
+    "student_id": 124,
+    "name": "NTWALI SAIDI TAUFIQ",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 80,
+        "Science & Social": 53,
+        "English": 76,
+        "Science & Tech": 72,
+        "Kinyarwanda": 53,
+        "Kiswahili": 55,
+        "Creative Arts": 53,
+        "French": 74,
+        "PE": 58,
+        "Religion": 92
+    },
+    "total": 666,
+    "average": "66.60",
+    "grade": "B",
+    "rank": 41,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

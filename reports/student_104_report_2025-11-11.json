@@ -1,0 +1,24 @@
+{
+    "student_id": 104,
+    "name": "IRUMVA Ella Brunette",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 62,
+        "Science & Social": 92,
+        "English": 86,
+        "Science & Tech": 63,
+        "Kinyarwanda": 58,
+        "Kiswahili": 73,
+        "Creative Arts": 61,
+        "French": 83,
+        "PE": 84,
+        "Religion": 62
+    },
+    "total": 724,
+    "average": "72.40",
+    "grade": "B+",
+    "rank": 18,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

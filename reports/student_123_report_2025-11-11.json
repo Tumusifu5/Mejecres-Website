@@ -1,0 +1,24 @@
+{
+    "student_id": 123,
+    "name": "NIYIGENA OLIVIA",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 83,
+        "Science & Social": 63,
+        "English": 87,
+        "Science & Tech": 69,
+        "Kinyarwanda": 56,
+        "Kiswahili": 59,
+        "Creative Arts": 63,
+        "French": 58,
+        "PE": 53,
+        "Religion": 79
+    },
+    "total": 670,
+    "average": "67.00",
+    "grade": "B",
+    "rank": 39,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

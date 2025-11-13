@@ -1,0 +1,24 @@
+{
+    "student_id": 102,
+    "name": "IRAKOZE GISUBIZO PRINCESE",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 69,
+        "Science & Social": 55,
+        "English": 82,
+        "Science & Tech": 84,
+        "Kinyarwanda": 90,
+        "Kiswahili": 87,
+        "Creative Arts": 59,
+        "French": 65,
+        "PE": 56,
+        "Religion": 67
+    },
+    "total": 714,
+    "average": "71.40",
+    "grade": "B+",
+    "rank": 22,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

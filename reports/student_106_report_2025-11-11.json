@@ -1,0 +1,24 @@
+{
+    "student_id": 106,
+    "name": "ISHIMWE MANZI BRITON",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 87,
+        "Science & Social": 63,
+        "English": 50,
+        "Science & Tech": 71,
+        "Kinyarwanda": 81,
+        "Kiswahili": 95,
+        "Creative Arts": 62,
+        "French": 80,
+        "PE": 94,
+        "Religion": 75
+    },
+    "total": 758,
+    "average": "75.80",
+    "grade": "B+",
+    "rank": 7,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

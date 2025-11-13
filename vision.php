@@ -393,10 +393,10 @@ footer {
   </div>
   <button class="hamburger" id="hamburger">☰</button>
   <nav id="NavMenu">
-    <a href="index.php">Home</a>
-    <a href="about.php">About</a>
-    <a href="vision.php" class="active">Vision & Values</a>
-    <a href="contact.php">Contact</a>
+    <a href="index.php"><i class="fas fa-home"></i> Home</a>
+      <a href="about.php"><i class="fas fa-info-circle"></i> About</a>
+   <a href="vision.php"><i class="fas fa-eye"></i> Vision & Values</a>
+        <a href="contact.php"><i class="fas fa-envelope"></i> Contact</a>
   </nav>
 </header>
 
@@ -572,7 +572,7 @@ footer {
   <div class="section">
     <h2>Our Motto</h2>
     <div class="quote">
-      <p>"Excellence Through Knowledge, Character Through Values"</p>
+      <p>"Excellence In Education"</p>
       <div class="author">- MEJECRES SCHOOL Motto</div>
     </div>
     <p>This motto encapsulates our commitment to balancing academic achievement with moral development, ensuring our students become well-rounded individuals who contribute positively to society.</p>

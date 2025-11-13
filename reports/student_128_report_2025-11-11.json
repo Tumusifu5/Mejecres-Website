@@ -1,0 +1,24 @@
+{
+    "student_id": 128,
+    "name": "SANO NSANZIMFURA PRINCE",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 87,
+        "Science & Social": 86,
+        "English": 83,
+        "Science & Tech": 79,
+        "Kinyarwanda": 76,
+        "Kiswahili": 61,
+        "Creative Arts": 85,
+        "French": 52,
+        "PE": 82,
+        "Religion": 54
+    },
+    "total": 745,
+    "average": "74.50",
+    "grade": "B+",
+    "rank": 11,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

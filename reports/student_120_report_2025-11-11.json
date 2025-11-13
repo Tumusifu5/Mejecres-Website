@@ -1,0 +1,24 @@
+{
+    "student_id": 120,
+    "name": "NIMWIZA ELLA DAHLIA",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 55,
+        "Science & Social": 80,
+        "English": 82,
+        "Science & Tech": 69,
+        "Kinyarwanda": 54,
+        "Kiswahili": 54,
+        "Creative Arts": 72,
+        "French": 67,
+        "PE": 60,
+        "Religion": 88
+    },
+    "total": 681,
+    "average": "68.10",
+    "grade": "B",
+    "rank": 37,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

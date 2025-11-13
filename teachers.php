@@ -205,8 +205,8 @@ $totalPages = $totalStudents > 0 ? ceil($totalStudents / $rowsPerPage) : 0;
   --primary-1: #023eaa;
   --primary-2: #0b4bd8;
   --primary-light: #e6eeff;
-  --accent: #ff9800;
-  --accent-light: #ffa726;
+  --accent: #957037ff;
+  --accent-light: #7a5112ff;
   --bg: #f8fafc;
   --card-bg: #ffffff;
   --text: #333333;
@@ -214,7 +214,7 @@ $totalPages = $totalStudents > 0 ? ceil($totalStudents / $rowsPerPage) : 0;
   --border: #e1e5eb;
   --success: #10b981;
   --success-light: #d1fae5;
-  --warning: #f59e0b;
+  --warning: #5b431bff;
   --warning-light: #fef3c7;
   --danger: #ef4444;
   --danger-light: #fee2e2;
@@ -241,7 +241,7 @@ body {
   flex-direction: column;
 }
 
-/* Header */
+/* Header - COMPACT DESIGN */
 header.site-header {
   background: linear-gradient(135deg, var(--accent), var(--accent-light));
   color: white;
@@ -259,27 +259,27 @@ header.site-header {
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 12px 20px;
+  padding: 6px 20px;
   position: relative;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 8px;
 }
 
 header img.logo {
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 8px;
   flex-shrink: 0;
   border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 header h1 {
-  font-size: 22px;
+  font-size: 18px;
   margin: 0;
   font-weight: 700;
   white-space: nowrap;
@@ -287,7 +287,7 @@ header h1 {
 
 nav {
   display: flex;
-  gap: 10px;
+  gap: 4px;
   align-items: center;
   position: relative;
 }
@@ -296,57 +296,58 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: 500;
-  font-size: 15px;
-  padding: 8px 16px;
-  border-radius: 8px;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 5px;
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
+  white-space: nowrap;
 }
 
 nav a:hover, nav a.active {
   background: rgba(255, 255, 255, 0.15);
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }
 
 .hamburger {
   display: none;
-  font-size: 24px;
+  font-size: 18px;
   cursor: pointer;
   background: none;
   border: none;
   color: white;
-  padding: 8px;
-  border-radius: 8px;
+  padding: 5px;
+  border-radius: 5px;
   z-index: 1000;
 }
 
 .close-btn {
   display: none;
-  font-size: 24px;
+  font-size: 18px;
   cursor: pointer;
   background: none;
   border: none;
   color: white;
-  padding: 8px;
-  border-radius: 8px;
+  padding: 5px;
+  border-radius: 5px;
   position: absolute;
-  top: 12px;
-  right: 20px;
+  top: 6px;
+  right: 15px;
 }
 
 @media (max-width: 768px) {
   nav {
     display: none;
     flex-direction: column;
-    gap: 8px;
+    gap: 5px;
     background: var(--accent);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 60px 20px 20px;
+    padding: 45px 15px 15px;
     border-radius: 0 0 var(--border-radius) var(--border-radius);
     box-shadow: var(--shadow-lg);
   }
@@ -363,6 +364,19 @@ nav a:hover, nav a.active {
   .close-btn {
     display: block;
   }
+
+  .header-inner {
+    padding: 5px 15px;
+  }
+
+  header img.logo {
+    height: 45px;
+    width: 45px;
+  }
+
+  header h1 {
+    font-size: 16px;
+  }
 }
 
 @keyframes fadeIn {
@@ -374,11 +388,11 @@ nav a:hover, nav a.active {
 .container {
   width: 95%;
   max-width: var(--max-width);
-  margin: 30px auto;
+  margin: 25px auto;
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
 }
 
 .welcome-section {
@@ -391,21 +405,21 @@ nav a:hover, nav a.active {
 .welcome-section h3 {
   color: var(--accent);
   font-weight: 600;
-  font-size: 18px;
+  font-size: 17px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 .btn-back {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 15px;
-  padding: 10px 18px;
+  gap: 6px;
+  margin-bottom: 12px;
+  padding: 8px 15px;
   background: var(--accent);
   color: white;
-  border-radius: 8px;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -421,32 +435,32 @@ nav a:hover, nav a.active {
 /* Dashboard Cards */
 .dashboard-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin-bottom: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  margin-bottom: 20px;
 }
 
 .dashboard-card {
   background: white;
-  padding: 25px;
+  padding: 22px;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 18px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-left: 4px solid var(--accent);
 }
 
 .dashboard-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
 }
 
 .dashboard-card i {
-  font-size: 40px;
-  width: 70px;
-  height: 70px;
+  font-size: 36px;
+  width: 65px;
+  height: 65px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -456,7 +470,7 @@ nav a:hover, nav a.active {
 }
 
 .card-content h2 {
-  font-size: 32px;
+  font-size: 28px;
   margin: 0;
   color: var(--accent);
 }
@@ -465,12 +479,13 @@ nav a:hover, nav a.active {
   margin: 0;
   color: var(--text-light);
   font-weight: 500;
+  font-size: 14px;
 }
 
 /* Main Panel */
 .main-panel {
   background: var(--card-bg);
-  padding: 30px;
+  padding: 25px;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -484,8 +499,8 @@ nav a:hover, nav a.active {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 25px;
-  padding-bottom: 20px;
+  margin-bottom: 22px;
+  padding-bottom: 18px;
   border-bottom: 1px solid var(--border);
 }
 
@@ -493,24 +508,24 @@ nav a:hover, nav a.active {
   margin: 0;
   color: var(--accent);
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 .teacher-info {
   background: var(--primary-light);
-  padding: 15px 20px;
+  padding: 14px 18px;
   border-radius: var(--border-radius);
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 12px;
 }
 
 .teacher-info i {
-  font-size: 24px;
+  font-size: 22px;
   color: var(--primary-2);
 }
 
@@ -520,21 +535,21 @@ nav a:hover, nav a.active {
 
 .teacher-details strong {
   color: var(--primary-2);
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .teacher-details span {
   color: var(--text-light);
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /* Controls */
 .controls {
   display: flex;
-  gap: 15px;
+  gap: 12px;
   align-items: center;
-  margin-bottom: 25px;
-  padding: 20px;
+  margin-bottom: 22px;
+  padding: 18px;
   background: var(--primary-light);
   border-radius: var(--border-radius);
   flex-wrap: wrap;
@@ -542,7 +557,7 @@ nav a:hover, nav a.active {
 
 .select-group {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   align-items: center;
   flex-wrap: wrap;
   flex: 1;
@@ -552,14 +567,15 @@ nav a:hover, nav a.active {
   font-weight: 600;
   color: var(--primary-2);
   white-space: nowrap;
+  font-size: 14px;
 }
 
 select {
-  padding: 12px 15px;
-  border-radius: 8px;
+  padding: 10px 12px;
+  border-radius: 6px;
   border: 1px solid var(--border);
-  font-size: 15px;
-  min-width: 180px;
+  font-size: 14px;
+  min-width: 160px;
   background: white;
   flex: 1;
   transition: all 0.3s ease;
@@ -573,13 +589,13 @@ select:focus {
 
 /* Status Indicator */
 .status-indicator {
-  padding: 10px 16px;
-  border-radius: 20px;
+  padding: 8px 14px;
+  border-radius: 18px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   white-space: nowrap;
 }
 
@@ -606,14 +622,14 @@ select:focus {
 /* Stats Grid */
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 15px;
-  margin: 25px 0;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 14px;
+  margin: 22px 0;
 }
 
 .stat-card {
   background: white;
-  padding: 20px;
+  padding: 18px;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
   border-left: 4px solid var(--accent);
@@ -626,14 +642,14 @@ select:focus {
 }
 
 .stat-number {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 700;
   color: var(--accent);
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .stat-label {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-light);
   font-weight: 500;
 }
@@ -644,13 +660,13 @@ select:focus {
   overflow-x: auto;
   border: 1px solid var(--border);
   border-radius: var(--border-radius);
-  margin: 20px 0;
+  margin: 18px 0;
   box-shadow: var(--shadow);
 }
 
 .attendance-table {
   width: 100%;
-  min-width: 700px;
+  min-width: 650px;
   border-collapse: collapse;
   margin: 0;
 }
@@ -659,17 +675,19 @@ select:focus {
   background: linear-gradient(135deg, var(--accent), var(--accent-light));
   color: white;
   font-weight: 600;
-  padding: 16px 12px;
+  padding: 14px 10px;
   text-align: left;
   position: sticky;
   top: 0;
   border-bottom: 2px solid var(--border);
+  font-size: 14px;
 }
 
 .attendance-table td {
-  padding: 14px 12px;
+  padding: 12px 10px;
   border-bottom: 1px solid var(--border);
   transition: background 0.3s ease;
+  font-size: 14px;
 }
 
 .attendance-table tr:hover {
@@ -677,8 +695,8 @@ select:focus {
 }
 
 .attendance-table input[type="checkbox"] {
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
   accent-color: var(--success);
   transition: all 0.3s ease;
@@ -693,16 +711,16 @@ select:focus {
   background: var(--accent);
   color: white;
   border: none;
-  padding: 12px 20px;
-  border-radius: 8px;
+  padding: 10px 16px;
+  border-radius: 6px;
   cursor: pointer;
   font-weight: 600;
   transition: all 0.3s ease;
-  font-size: 14px;
+  font-size: 13px;
   white-space: nowrap;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   box-shadow: var(--shadow);
 }
 
@@ -755,42 +773,42 @@ select:focus {
 /* Action Buttons */
 .action-buttons {
   display: flex;
-  gap: 12px;
+  gap: 10px;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 22px;
   flex-wrap: wrap;
 }
 
 .rows-per-page {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   margin-left: auto;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-light);
 }
 
 /* Pagination */
 .pagination {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 22px;
   flex-wrap: wrap;
 }
 
 .pagination button {
-  padding: 10px 16px;
-  border-radius: 8px;
+  padding: 8px 14px;
+  border-radius: 6px;
   border: 1px solid var(--accent);
   background: white;
   color: var(--accent);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-size: 14px;
-  min-width: 44px;
+  font-size: 13px;
+  min-width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -816,54 +834,55 @@ select:focus {
 
 /* Progress Container */
 .progress-container {
-  margin: 25px 0;
+  margin: 22px 0;
   background: white;
-  padding: 20px;
+  padding: 18px;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
 }
 
 .progress {
-  height: 14px;
+  height: 12px;
   background: #e9ecef;
-  border-radius: 7px;
+  border-radius: 6px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .progress-bar {
   height: 100%;
   background: linear-gradient(135deg, var(--accent), var(--accent-light));
   transition: width 0.4s ease;
-  border-radius: 7px;
+  border-radius: 6px;
 }
 
 .progress-stats {
   display: flex;
   justify-content: space-between;
-  margin-top: 8px;
-  font-size: 14px;
+  margin-top: 6px;
+  font-size: 13px;
   color: var(--text-light);
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 /* Toast Notification */
 .toast {
   position: fixed;
-  top: 20px;
-  right: 20px;
-  padding: 16px 20px;
+  top: 15px;
+  right: 15px;
+  padding: 14px 18px;
   border-radius: var(--border-radius);
   color: white;
   font-weight: 500;
   z-index: 10000;
   animation: slideIn 0.3s ease;
   box-shadow: var(--shadow-lg);
-  max-width: 400px;
+  max-width: 380px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+  font-size: 14px;
 }
 
 .toast.success {
@@ -887,8 +906,8 @@ select:focus {
 /* Loading Animation */
 .loading {
   display: inline-block;
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   border: 2px solid #f3f3f3;
   border-top: 2px solid var(--accent);
   border-radius: 50%;
@@ -905,21 +924,22 @@ footer {
   background: linear-gradient(135deg, var(--accent), var(--accent-light));
   color: white;
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 18px;
+  margin-top: 35px;
+  font-size: 14px;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
   .container {
     width: 92%;
-    margin: 20px auto;
+    margin: 18px auto;
   }
   
   .welcome-section {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 8px;
   }
   
   .dashboard-cards {
@@ -929,7 +949,7 @@ footer {
   .controls {
     flex-direction: column;
     align-items: stretch;
-    gap: 12px;
+    gap: 10px;
   }
   
   .select-group {
@@ -960,8 +980,8 @@ footer {
   
   .attendance-table th, 
   .attendance-table td {
-    padding: 12px 8px;
-    font-size: 14px;
+    padding: 10px 8px;
+    font-size: 13px;
   }
   
   .toast {
@@ -970,15 +990,19 @@ footer {
     left: 10px;
     max-width: none;
   }
+
+  .main-panel {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 480px) {
   .container {
-    padding: 0 10px;
+    padding: 0 8px;
   }
   
   .main-panel {
-    padding: 20px 15px;
+    padding: 18px 12px;
   }
   
   .stats-grid {
@@ -987,19 +1011,41 @@ footer {
   
   .attendance-table th, 
   .attendance-table td {
-    padding: 10px 6px;
-    font-size: 13px;
+    padding: 8px 6px;
+    font-size: 12px;
   }
   
   .btn {
-    padding: 10px 14px;
-    font-size: 13px;
+    padding: 8px 12px;
+    font-size: 12px;
   }
   
   .pagination button {
-    padding: 8px 12px;
-    font-size: 13px;
-    min-width: 36px;
+    padding: 6px 10px;
+    font-size: 12px;
+    min-width: 34px;
+  }
+
+  .header-inner {
+    padding: 4px 10px;
+  }
+
+  .brand {
+    gap: 6px;
+  }
+
+  header img.logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  header h1 {
+    font-size: 14px;
+  }
+
+  nav a {
+    font-size: 12px;
+    padding: 5px 8px;
   }
 }
 </style>
@@ -1021,7 +1067,7 @@ footer {
       </button>
       <a href="index.php"><i class="fas fa-home"></i> Home</a>
       <a href="about.php"><i class="fas fa-info-circle"></i> About</a>
-      <a href="teacher.php" class="active"><i class="fas fa-clipboard-check"></i> Attendance</a>
+<a href="report.php"><i class="fas fa-file-alt"></i>Mid-Term Reports</a>      <a href="teachers.php" class="active"><i class="fas fa-clipboard-check"></i> Attendance</a>
       <a href="vision.php"><i class="fas fa-eye"></i> Vision & Values</a>
       <a href="contact.php"><i class="fas fa-envelope"></i> Contact</a>
       <a href="logout.php" style="color:#ffd700;"><i class="fas fa-sign-out-alt"></i> Logout</a>
@@ -1136,10 +1182,10 @@ footer {
             <tbody id="attendanceBody">
                 <?php if (empty($students)): ?>
                     <tr>
-                        <td colspan="6" style="text-align:center; padding:40px; color:var(--text-light);">
-                            <i class="fas fa-door-open" style="font-size: 48px; margin-bottom: 15px; display: block; opacity: 0.5;"></i>
-                            <h3 style="margin-bottom: 10px;">Select a Class</h3>
-                            <p>Choose a class from the dropdown above to load students</p>
+                        <td colspan="6" style="text-align:center; padding:35px; color:var(--text-light);">
+                            <i class="fas fa-door-open" style="font-size: 42px; margin-bottom: 12px; display: block; opacity: 0.5;"></i>
+                            <h3 style="margin-bottom: 8px; font-size: 18px;">Select a Class</h3>
+                            <p style="font-size: 14px;">Choose a class from the dropdown above to load students</p>
                         </td>
                     </tr>
                 <?php else: ?>
@@ -1154,7 +1200,7 @@ footer {
                                    checked onchange="updateStudentStatus(this, <?php echo $index; ?>)">
                         </td>
                         <td>
-                            <span id="status<?php echo $index; ?>" style="color: var(--success); font-weight: 600;">
+                            <span id="status<?php echo $index; ?>" style="color: var(--success); font-weight: 600; font-size: 13px;">
                                 <i class="fas fa-check-circle"></i> Present
                             </span>
                         </td>
@@ -1200,7 +1246,7 @@ footer {
             <strong id="presentCount">100% (<?php echo count($students); ?>/<?php echo count($students); ?>) on this page</strong>
         </div>
         <?php if ($totalPages > 1): ?>
-        <div style="margin-top: 10px; font-size: 12px; color: var(--text-light); text-align: center;">
+        <div style="margin-top: 8px; font-size: 12px; color: var(--text-light); text-align: center;">
             <i class="fas fa-info-circle"></i> 
             Showing page <?php echo $currentPage; ?> of <?php echo $totalPages; ?> 
             (<?php echo count($students); ?> of <?php echo $totalStudents; ?> total students)

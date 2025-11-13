@@ -528,10 +528,10 @@ footer {
   <button class="hamburger" id="hamburger">☰</button>
 
   <nav id="NavMenu">
-    <a href="index.php">Home</a>
-    <a href="about.php" class="active">About</a>
-    <a href="vision.php">Vision & Values</a>
-    <a href="contact.php">Contact</a>
+    <a href="index.php"><i class="fas fa-home"></i> Home</a>
+      <a href="about.php"><i class="fas fa-info-circle"></i> About</a>
+   <a href="vision.php"><i class="fas fa-eye"></i> Vision & Values</a>
+        <a href="contact.php"><i class="fas fa-envelope"></i> Contact</a>
   </nav>
 </header>
 

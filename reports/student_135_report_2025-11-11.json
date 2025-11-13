@@ -1,0 +1,24 @@
+{
+    "student_id": 135,
+    "name": "UWINEZA SIFA NEILLA",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 81,
+        "Science & Social": 74,
+        "English": 71,
+        "Science & Tech": 69,
+        "Kinyarwanda": 83,
+        "Kiswahili": 91,
+        "Creative Arts": 51,
+        "French": 53,
+        "PE": 52,
+        "Religion": 67
+    },
+    "total": 692,
+    "average": "69.20",
+    "grade": "B",
+    "rank": 33,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}

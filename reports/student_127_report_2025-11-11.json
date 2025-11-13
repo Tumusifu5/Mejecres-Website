@@ -1,0 +1,24 @@
+{
+    "student_id": 127,
+    "name": "SANO ANICK BRUNO",
+    "class": "N3",
+    "max_marks": 100,
+    "subjects": {
+        "Mathematics": 74,
+        "Science & Social": 63,
+        "English": 65,
+        "Science & Tech": 68,
+        "Kinyarwanda": 79,
+        "Kiswahili": 78,
+        "Creative Arts": 84,
+        "French": 59,
+        "PE": 74,
+        "Religion": 88
+    },
+    "total": 732,
+    "average": "73.20",
+    "grade": "B+",
+    "rank": 14,
+    "teacher_comment": "",
+    "generated_date": "2025-11-11 14:31:50"
+}
